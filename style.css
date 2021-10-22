@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-image: linear-gradient(to right, rgb(131,111,255), rgb(72,61,139));
+    font-family: Poppins;
+    color: white;
+}
+
+.main{
+    position: absolute;
+    top: 7%;
+    left: 150px;
+}
+
+.box{
+    position: absolute;
+    top: 140px;
+    left: 130px;
+    background-color: rgb(0, 0, 0, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#submit{
+    background-color: rgb(131,111,255);
+    color: white;
+    width: 100%;
+    border-radius: 7px;
+    cursor: pointer;
+    border: none;
+    padding: 7px;
+    transition: .5s;
+}
+
+#submit:hover{
+    transition: .5s;
+    background: rgb(64, 36, 243);    
+}
+
+.Fieldset{
+    border-radius: 5px;
+    background: none;
+    border-color: rgb(0, 0, 0, 0.2);
+}
+
+.inputBox{
+    border-color: blueviolet;
+    border-radius: 7px;
+    padding: 2px;
+    color: black;
+}
